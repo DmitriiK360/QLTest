@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Mail.ru">
+
+    <test name="Send an email from mail.ru">
+        <classes>
+            <class name="test.MailTest">
+                <methods>
+                    <include name="testLoginMail" />
+                    <include name="testSendEmail" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
